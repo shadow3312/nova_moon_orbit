@@ -37,10 +37,16 @@
           const x = Math.random() * 100;
           const y = Math.random() * 100;
 
+          // Give a random animation delay for each star to give a more realistic look
+
+          const delay = Math.random() * 3;
+
           star.style.top = y + "%";
           star.style.left = x + "%";
           star.style.width = size + "px";
           star.style.height = size + "px";
+
+          star.style.animationDelay = delay + "s";
 
           body.appendChild(star);
         }
