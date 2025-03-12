@@ -16,6 +16,13 @@ body {
   position: relative;
 }
 
+/* STARS */
+.star {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
 /* SPACE AREA */
 .space {
   position: relative;
