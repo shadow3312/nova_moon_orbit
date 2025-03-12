@@ -1,4 +1,5 @@
 /* GLOBAL STYLING */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 html,
 body {
@@ -14,6 +15,7 @@ body {
   background-color: #0a0a2a;
   overflow: hidden;
   position: relative;
+  font-family: Poppins, sans-serif;
 }
 
 /* STARS */
@@ -107,4 +109,12 @@ body {
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }
+}
+
+/* COPYRIGHT AREA */
+.copyright {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 18px;
 }
