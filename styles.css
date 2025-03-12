@@ -63,4 +63,14 @@ body {
       transparent 20%
     ),
     linear-gradient(to right, #2e86c1 0%, #2e86c1 100%);
+  animation: rotate-earth 10s linear infinite;
+}
+
+@keyframes rotate-earth {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 0;
+  }
 }
