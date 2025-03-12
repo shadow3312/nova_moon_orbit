@@ -1,0 +1,27 @@
+/* GLOBAL STYLING */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a2a;
+  overflow: hidden;
+  position: relative;
+}
+
+/* SPACE AREA */
+.space {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
