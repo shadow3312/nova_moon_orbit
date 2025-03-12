@@ -27,7 +27,11 @@
           star.className = "star";
 
           // Give a size of 2px
-          const size = 2;
+          // const size = 2;
+          // Every star having the same size is not much realistic
+
+          // Give a random size between 1 and 3 pixels
+          const size = Math.random() * 2 + 1;
 
           // Give a random position
           const x = Math.random() * 100;
